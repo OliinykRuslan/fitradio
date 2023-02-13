@@ -1,0 +1,30 @@
+.dark-bg {
+	background: #0E0F12;
+}
+.supporting-bold {
+	font-family: $supporting_font_bold;
+}
+.supporting-thin {
+	font-family: $supporting_font_thin;
+}
+.head-holder {
+	text-align: center;
+	p {
+		color: $white;
+		font-family: $main_font;
+		letter-spacing: 2px;
+		line-height: 1;
+	}
+}
+.main_svg[hidden] {
+	display: none !important;
+}
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn,
+.btn-white,
+.btn-black {
+	transition: all .25s;
+}

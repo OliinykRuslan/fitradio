@@ -1,0 +1,19 @@
+// fonts
+@import "base/fonts";
+
+// variables and mixins
+@import "base/variables";
+
+// common styles
+@import "base/common";
+
+//pages
+
+//components
+@import "components/header",
+		"components/hero-widget",
+		"components/whats-included",
+		"components/additional-services",
+		"components/upgrade",
+		"components/faq",
+		"components/waiting-widget";

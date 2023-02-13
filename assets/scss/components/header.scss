@@ -1,0 +1,50 @@
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 40px 0;
+	width: 100%;
+	z-index: 9;
+	@media (max-width: 480px) {
+		padding: 20px 0;
+	}
+	.inner-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo {
+		svg {
+			height: 40px;
+			width: 220px;
+			@media (max-width: 480px) {
+				width: 170px;
+			}
+		}
+	}
+	.btn-white {
+		border-radius: 100px;
+		border: 1px solid $white;
+		font-weight: 600;
+		font-size: 14px;
+		font-family: $main_font;
+		padding: 11px 34px;
+		letter-spacing: 0;
+		text-transform: none;
+		background-color: $white;
+		color: $black;
+		@media (max-width: 480px) {
+			font-size: 12px;
+			padding: 10px 25px;
+		}
+		&:hover {
+			background-color: $black;
+			border: 1px solid $black;
+			color: $white;
+			svg {
+				fill: $black;
+			}
+		}
+	}
+}
